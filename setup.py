@@ -12,6 +12,7 @@ if __name__ == "__main__":
         author=__author__,
         author_email=__email__,
         packages=find_packages(),
+        package_data={'reaction_completer': ['pt.json']},
         zip_safe=False,
         install_requires=[
             'sympy',
